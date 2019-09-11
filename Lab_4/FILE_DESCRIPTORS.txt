@@ -1,0 +1,36 @@
+FILE DESCRIPTORS
+
+blocks.dat 
+	- blockID
+	- hash
+	- block_timestamp
+	- n_txs
+	
+trans_ovrw.dat
+	- txID 
+	- blockID
+	- n_inputs
+	- n_outputs
+
+trans_inp.dat
+	- txID 
+	- input_seq
+	- prev_txID 
+	- prev_output_seq
+	- addrID
+	- sum 
+
+trans_out.dat
+	- txID
+	- output_seq
+	- addrID
+	- sum
+
+BTC-USD.csv
+	- Date
+	- Open
+	- High
+	- Low
+	- Close
+	- Adj Close
+	- Volume
